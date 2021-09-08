@@ -1,6 +1,10 @@
 # Desafio 1: AluraLog Dashboard de Logística 🚚
 
 
+[Acessar o Dashboard](https://public.tableau.com/views/Dashboard_AluraLog/PainelPrincipal?:language=pt-BR&publish=yes&:display_count=n&:origin=viz_share_link)
+
+
+<br>
 
 ### Índice
 
@@ -13,16 +17,17 @@
 [Contato](#contact)
 
 
-
+<br>
 <a name="businesscase"/>
 
-### Estudo de caso:
+### Estudo de caso
 
 A pessoa que gerencia a área de logística da Alura Log, está enfrentando algumas mudanças em sua área por conta do aumento da demanda dos serviços de logística no período da pandemia. Ela quer manter a qualidade de seu serviço, mas para isso precisa acompanhar constantemente as métricas do seu departamento para tomar as melhores decisões. Quando nos contou isso, analisamos que para auxiliar nesse desafio precisaremos fazer um dashboard para logística. Para isso, vamos visualizar algumas métricas muito importantes para a área.
 
 
+<br>
 
-### Requisitos:
+### Requisitos
 
 <ul>
   <li>Visualizar quantas entregas foram feitas no prazo;</li>
@@ -35,6 +40,7 @@ A pessoa que gerencia a área de logística da Alura Log, está enfrentando algu
 </ul>
 
 
+<br>
 <a name="database"/>
 
 ### Base de Dados
@@ -104,8 +110,11 @@ A <b>Tabela de Veículos</b> apresenta os registros de disponibilidade atual dos
 
 <a name="solution"/>
 
+<br>
 
 ### Solução
+
+<br>
 
 #### Passo 1: Tratamento de dados
 
@@ -113,7 +122,8 @@ Utilizei o Tableau Prep Builder para efetuar os tratamentos de dados.
 
 Foram importadas todas as tabelas disponíveis e inseridas uma etapa de limpeza para cada uma delas, além de uma etapa de saída para salvar um novo CSV com os dados limpos.
 
-![image-20210907175616136](C:\Users\alyst\AppData\Roaming\Typora\typora-user-images\image-20210907175616136.png)
+
+![image](https://user-images.githubusercontent.com/11970888/132564245-51e94ce2-b693-4c24-a7d6-d90006a35ad4.png)
 
 
 
@@ -136,7 +146,7 @@ Foram importadas todas as tabelas disponíveis e inseridas uma etapa de limpeza 
 * Tabela de Produtos:
   * Uso da função SPLIT para separar o ID do Nome da Categoria, que estavam junto por uso do traço.
 
-    *  SPLIT( [categoria_produto], "-", 1) para o ID
+    * SPLIT( [categoria_produto], "-", 1) para o ID
     * SPLIT( [categoria_produto], "-", 2) para o Nome da Categoria 
 
   * Substituição dos _ por espaço vazio no Nome da Categoria
@@ -155,6 +165,7 @@ Foram importadas todas as tabelas disponíveis e inseridas uma etapa de limpeza 
   * Alteração do tipo do campo para Inteiro
 
 
+<br>
 
 #### Passo 2: Relacionamentos
 
@@ -166,7 +177,8 @@ A fonte <b>Pedidos</b> utiliza como base a tabela pedidos e se relaciona com as 
 
 Os relacionamentos foram configurados da seguinte forma: 
 
-![image-20210908142636876](C:\Users\alyst\AppData\Roaming\Typora\typora-user-images\image-20210908142636876.png)
+![image](https://user-images.githubusercontent.com/11970888/132564311-7ae2c1f0-928d-4636-a22f-ee2bf0a3cefa.png)
+
 
 Pedidos (N) <--- (1) Produtos
 
@@ -180,9 +192,8 @@ A fonte <b>Estoque</b> utiliza como base tabela estoque e se relaciona com a tab
 
 O relacionamento foi configurado da seguinte forma:
 
+![image](https://user-images.githubusercontent.com/11970888/132564341-9b44b2ba-0d92-4926-91ee-08dca2984042.png)
 
-
-![image-20210908142957336](C:\Users\alyst\AppData\Roaming\Typora\typora-user-images\image-20210908142957336.png)
 
 Estoque (N) <--- (1) Produtos
 
@@ -193,6 +204,7 @@ O relacionamento é 1 para muitos partindo da tabela de produtos, visto que a es
 A <b>Dimensão Tempo</b> não foi criada, pois nesse dashboard a análise de estoque será fixa e não irá variar conforme filtros. Portanto, utilizarei o campo data de compra, da fonte Pedidos, como referência para as análises no dashboard.
 
 
+<br>
 
 #### Passo 3: O Dashboard
 
@@ -213,12 +225,10 @@ Você pode acessar o dashboard interativo completo clicando <b> [AQUI](https://p
 </ul>
 
 
-
-![image-20210908143721632](C:\Users\alyst\AppData\Roaming\Typora\typora-user-images\image-20210908143721632.png)
-
+![image](https://user-images.githubusercontent.com/11970888/132564396-4975580b-1fca-4ce3-8e7b-a5f8862838de.png)
 
 
-
+<br>
 
 <b>O painel produtos</b> traz alguns outros insights interessantes. Os cards e filtros permanecem os mesmos, mas há o acréscimo de:
 
@@ -229,9 +239,10 @@ Você pode acessar o dashboard interativo completo clicando <b> [AQUI](https://p
 
 
 
-![image-20210908143916567](C:\Users\alyst\AppData\Roaming\Typora\typora-user-images\image-20210908143916567.png)
+![image](https://user-images.githubusercontent.com/11970888/132564446-e0f70654-3a15-4a9a-908c-9b9571fd18d4.png)
 
 
+<br>
 
 <a name="contact"/>
 

@@ -24,8 +24,9 @@ A pessoa que gerencia a área de logística da Alura Log, está enfrentando algu
 
 Veja minha solução para o desafio 1:
 
-[Dashboard Logístico](https://github.com/AlysterF/alura-challengeBI/tree/main/Desafio%201%20-%20AluraLog)
-
+<p align="center">
+  <a href="https://github.com/AlysterF/alura-challengeBI/tree/main/Desafio%201%20-%20AluraLog"><img src="https://user-images.githubusercontent.com/11970888/132564396-4975580b-1fca-4ce3-8e7b-a5f8862838de.png" width="500" position="center"/></a>
+</p>
 
 
 

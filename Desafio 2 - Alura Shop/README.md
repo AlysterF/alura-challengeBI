@@ -240,7 +240,7 @@ Nesse painel, vale ressaltar que o Data Studio não fornece um gráfico de funil
 
 
 
-![image-20210917182614088](C:\Users\alyst\AppData\Roaming\Typora\typora-user-images\image-20210917182614088.png)
+![image](https://user-images.githubusercontent.com/11970888/133856965-13ec2f05-87a3-483b-9a12-875501cc3c77.png)
 
 
 
@@ -249,8 +249,9 @@ Já o <b>painel Clientes</b> traz os mesmos cards do painel anterior, mas alguma
 Eu tive dificuldade em remover do gráfico de barras empilhadas os campos do eixo X em que o valor do ROAS era 0/nulo. Criei um filtro para ser aplicado no visual, considerando excluir o ROAS que fosse 0 ou nulo. O filtro funcionou no gráfico de barras apenas com a dimensão idade, mas ao adicionar a dimensão gênero como uma dimensão detalhada, o filtro deixa de funcionar e o eixo é exibido por completo. Por isso, ainda é possível visualizar os campos de idade 25 e 65+, mesmo que não tenham valor algum.
 
 
+![image](https://user-images.githubusercontent.com/11970888/133856923-e7b5e341-e712-4c24-83dd-91913f0cdf1c.png)
 
-![image-20210917182718831](C:\Users\alyst\AppData\Roaming\Typora\typora-user-images\image-20210917182718831.png)
+
 
 <br>
 

@@ -63,6 +63,10 @@ Veja minha solução para o desafio 2:
   <a href="https://user-images.githubusercontent.com/11970888/133856470-b084622d-0b2a-4c85-ab1d-00bd5a0f5841.png" width="500" position="center"/></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/AlysterF/alura-challengeBI/tree/main/Desafio%202%20-%20Alura%20Shop"><img src="https://user-images.githubusercontent.com/11970888/133856470-b084622d-0b2a-4c85-ab1d-00bd5a0f5841.png" width="500" position="center"/></a>
+</p>
+
 
 
 # 🚧 Desafio 3 🚧

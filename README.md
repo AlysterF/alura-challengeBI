@@ -59,7 +59,9 @@ A nossa missão é apoiar a gerência em suas **tomadas de decisão**, e elucida
 
 Veja minha solução para o desafio 2:
 
-
+<p align="center">
+  <a href="https://user-images.githubusercontent.com/11970888/133856470-b084622d-0b2a-4c85-ab1d-00bd5a0f5841.png" width="500" position="center"/></a>
+</p>
 
 
 

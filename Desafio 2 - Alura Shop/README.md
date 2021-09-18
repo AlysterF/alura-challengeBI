@@ -63,7 +63,7 @@ Foram disponibilizadas duas bases de dados em JSON para esse desafio, sendo elas
 
 
 
-A <b>Tabela Dispositivos</b apresenta informações de acesso por dispositivo e possui:
+A <b>Tabela Dispositivos</b> apresenta informações de acesso por dispositivo e possui:
 
 <ul>
     <li>Dia</li>

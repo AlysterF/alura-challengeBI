@@ -63,7 +63,7 @@ Foram disponibilizadas duas bases de dados em JSON para esse desafio, sendo elas
 
 
 
-A <b>Tabela Dispositivos</b apresenta informações de acesso por dispositivo e possui:
+A <b>Tabela Dispositivos</b> apresenta informações de acesso por dispositivo e possui:
 
 <ul>
     <li>Dia</li>
@@ -153,8 +153,7 @@ Onde <b>URL</b> é o link de origem do arquivo JSON,  <b>query</b> é uma série
 
 Após essa importação, conectei ambas tabelas no Data Studio
 
-![image-20210917171648038](C:\Users\alyst\AppData\Roaming\Typora\typora-user-images\image-20210917171648038.png)
-
+![image](https://user-images.githubusercontent.com/11970888/134237125-9e97d97e-8882-4fab-9c6d-19289d9bc979.png)
 
 
 Na Tabela Dispositivos fiz alterações nos tipos de dados:

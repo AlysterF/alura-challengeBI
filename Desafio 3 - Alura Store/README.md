@@ -1,6 +1,6 @@
 # Desafio 3: AluraStore Dashboard Financeiro 📈🤑
 
-[Acessar o Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjk1M2Q5OTgtYjhiNy00OGY0LTk1MjAtY2M5YmI0ZDEzNmIwIiwidCI6IjA3NjFiYTk4LTk2NmUtNDBlZi1hZTMzLTVkZTMzZTBlNjE5NCJ9)
+[Acessar o Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYWUyNTFlMTktMTU1Ny00NzQyLTkzNGItYjUzYTFlZGMyMGExIiwidCI6IjA3NjFiYTk4LTk2NmUtNDBlZi1hZTMzLTVkZTMzZTBlNjE5NCJ9)
 
 <br>
 
@@ -308,7 +308,7 @@ Criadas todas essas medidas, chegou a hora da parte mais sensacioshow de todas, 
 
 #### Passo 3: O Dashboard
 
-Você pode acessar o dashboard interativo completo clicando <b> [AQUI](https://app.powerbi.com/view?r=eyJrIjoiYjk1M2Q5OTgtYjhiNy00OGY0LTk1MjAtY2M5YmI0ZDEzNmIwIiwidCI6IjA3NjFiYTk4LTk2NmUtNDBlZi1hZTMzLTVkZTMzZTBlNjE5NCJ9)</b>
+Você pode acessar o dashboard interativo completo clicando <b> [AQUI](https://app.powerbi.com/view?r=eyJrIjoiYWUyNTFlMTktMTU1Ny00NzQyLTkzNGItYjUzYTFlZGMyMGExIiwidCI6IjA3NjFiYTk4LTk2NmUtNDBlZi1hZTMzLTVkZTMzZTBlNjE5NCJ9)</b>
 
 
 

@@ -59,9 +59,6 @@ A nossa missão é apoiar a gerência em suas **tomadas de decisão**, e elucida
 
 Veja minha solução para o desafio 2:
 
-<p align="center">
-  <a href="https://user-images.githubusercontent.com/11970888/133856470-b084622d-0b2a-4c85-ab1d-00bd5a0f5841.png" width="500" position="center"/></a>
-</p>
 
 <p align="center">
   <a href="https://github.com/AlysterF/alura-challengeBI/tree/main/Desafio%202%20-%20Alura%20Shop"><img src="https://user-images.githubusercontent.com/11970888/133856965-13ec2f05-87a3-483b-9a12-875501cc3c77.png" width="500" position="center"/></a>
@@ -69,6 +66,40 @@ Veja minha solução para o desafio 2:
 
 
 
-# 🚧 Desafio 3 🚧
+## Desafio 3: Alura Store - Dashboard Financeiro
 
-🚧 Em breve 🚧
+### Estudo de caso:
+
+Desenvolveremos um dashboard tático da área financeira de uma empresa,  no qual vamos criar duas páginas, sendo uma delas exibindo um overview  de toda a área financeira e a outra página  realizando uma análise de  cenários.
+Teremos duas etiquetas indicando o que precisaremos pensar, sendo elas:
+1 - Overview financeiro.
+2 - Análise de cenário.
+
+
+### Requisitos:
+
+<ul>
+    <li>Calcular e exibir a receita</li>
+    <li>Calcular e exibir os custos</li>
+    <li>Calcular e exibir a despesa</li>
+    <li>Calcular e exibir o lucro</li>
+    <li>Analisar e exibir mensalmente as métricas</li>
+    <li>Permitir filtrar por ano</li>
+    <li>Criar uma análise de cenário</li>
+</ul>
+
+Veja minha solução para o desafio 3:
+
+<p align="center">
+  <a href="https://github.com/AlysterF/alura-challengeBI/tree/main/Desafio%203%20-%20Alura%20Store"><img src="https://user-images.githubusercontent.com/11970888/134715774-02867716-00bc-43c4-86c1-2fab853bcd85.png" width="500" position="center"/></a>
+</p>
+
+
+## Contato
+
+Sinta-se a vontade para me contatar:
+
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/alysterfernandes/)
+
+[<img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />](https://medium.com/@alyster)
+

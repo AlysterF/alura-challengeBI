@@ -151,8 +151,7 @@ Após a mescla, <b>removi as colunas de valor_venda e frete</b>, pois todos os <
 
 A planilha vendedores apresentou diversos problemas, veja os dados originais:
 
-![image-20210923184120370](C:\Users\alyst\AppData\Roaming\Typora\typora-user-images\image-20210923184120370.png)
-
+![image](https://user-images.githubusercontent.com/11970888/134615693-6dc9f7e5-3fe4-47dc-b019-6cd1c2dc20d9.png)
 
 
 Perceba que não padrão algum quanto ao nome do vendedor, há nomes com todas as letras minúsculas, todas as letras maiúsculas, separados por <i>underscore</i>, entre outros erros.
@@ -160,7 +159,7 @@ Perceba que não padrão algum quanto ao nome do vendedor, há nomes com todas a
 As transformações para corrigir os problemas foram as seguintes:
 
 <ul>
-	<li>Substituição do <i>underscore</i> por espaço em branco com Substituir Valores</li>
+    <li>Substituição do <i>underscore</i> por espaço em branco com Substituir Valores</li>
     <li>Colocação das primeiras letras em maiúscula e as demais minúsculas para todos os nomes</li>
     <li>Remoção do excesso de letras A no sobrenome da Aline Silva</li>
     <li>Limpeza do texto para garantir que não há espaços extras</li>
@@ -217,9 +216,9 @@ A partir da criação da tabela com as datas desejadas, inseri novas colunas par
 
 
 
-Ao finalizar todas os ajustes nas tabelas, criei os relacionamentos entre elas, para que os dados entre as mesmas fossem corretamente sincronizados:
+Ao finalizar todas os ajustes nas tabelas, criei os relacionamentos entre elas, para que os dados entre as mesmas fossem corretamente integrados:
 
-![image-20210923234529808](C:\Users\alyst\AppData\Roaming\Typora\typora-user-images\image-20210923234529808.png)
+![image](https://user-images.githubusercontent.com/11970888/134615756-f9b771f2-abfb-457f-880e-58c29f4703ec.png)
 
 
 
@@ -240,7 +239,7 @@ Para alcançar os requisitos do projeto, criei algumas medidas:
     <li><b>Custo Total</b></li>
     SUMX(fPedido, fPedido[quantidade] * RELATED(dProduto[custo_produto]))
     <li><b>Imposto Total</b></li>
-	SUM(fPedido[imposto])
+    SUM(fPedido[imposto])
     <li><b>Receita Bruta</b></li>
     SUMX(fPedido, fPedido[quantidade] * RELATED(dProduto[preco_produto]))
     <li><b>Receita Líquida</b></li>
@@ -273,7 +272,7 @@ Após a criação desses parâmetros, o PowerBI cria medidas que podem ser usada
     <li><b>Cenário Custo Total</b></li>
     SUMX(fPedido, (fPedido[quantidade] * (1+'Cenário Demanda'[Demanda Valor])) * (RELATED(dProduto[custo_produto]) * (1+'Cenário Custo de Produção'[Custo de Produção Valor])))
     <li><b>Cenário Imposto Total</b></li>
-	SUM(fPedido[imposto]) * (1+'Cenário Imposto'[Cenário Imposto Valor])
+    SUM(fPedido[imposto]) * (1+'Cenário Imposto'[Cenário Imposto Valor])
     <li><b>Cenário Receita Bruta</b></li>
     SUMX(fPedido, (fPedido[quantidade] * (1+'Cenário Demanda'[Demanda Valor])) * (RELATED(dProduto[preco_produto]) * (1+'Cenário Preço do Produto'[Preço do Produto Valor])))
     <li><b>Cenário Receita Líquida</b></li>
@@ -294,11 +293,11 @@ E para calcular um % de variação comparando as métricas do cenário com as m�
     <li><b>Variação do Custo</b></li>
     [Cenário Custo Total]/[Custo Total]-1
     <li><b>Variação do Lucro</b></li>
-	[Cenário Lucro Líquido]/[Lucro Líquido]-1
+    [Cenário Lucro Líquido]/[Lucro Líquido]-1
     <li><b>Variação da Receita</b></li>
     [Cenário Receita Líquida]/[Receita Líquida]-1
-     <li><b>Variação de Despesa</b></li>
-     [Cenário Despesa Total]/[Despesa Total]-1
+    <li><b>Variação de Despesa</b></li>
+    [Cenário Despesa Total]/[Despesa Total]-1
 </ul>
 
 
@@ -333,16 +332,13 @@ Além de trazer:
 
 Por fim, incluí um filtro para que os dados possam ser exibidos de acordo com o(s) ano(s) selecionados.
 
-![image-20210924000901635](C:\Users\alyst\AppData\Roaming\Typora\typora-user-images\image-20210924000901635.png)
+![image](https://user-images.githubusercontent.com/11970888/134615833-a0b95668-f8f9-470e-a88b-a35328a725cc.png)
 
 
 
 Já o <b>painel do simulador</b> traz os mesmos cards do painel anterior, mas considerando os valores alterados de acordo com a variação dos parâmetros. Além de manter o filtro do ano, o gráfico de colunas e linha para apresentar os valores de receita e lucro por mês com a variação do cenário e o gráfico de linha/série temporal para mostrar o valor do custo por mês com variação do cenário.
 
-
-
-
-![image-20210924001213230](C:\Users\alyst\AppData\Roaming\Typora\typora-user-images\image-20210924001213230.png)
+![image](https://user-images.githubusercontent.com/11970888/134615856-c1506ba6-33af-4cbd-aa5c-987e4368e20e.png)
 
 
 
